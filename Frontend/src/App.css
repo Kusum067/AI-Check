@@ -1,0 +1,77 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  padding: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  overflow: hidden;
+}
+main .left,
+main .right{
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.7rem;
+  overflow: auto;
+}
+
+main .left{
+  /* background-color: black; */
+  /* position: relative; */
+  font-size: 1.2rem !important;
+}
+
+
+/* .left .code,
+.code pre,
+.code pre code{
+  height: 100%;
+  width: 100%;
+  border-radius: 0.7rem;
+} */
+.language-javascript{
+  background-color: rgb(230, 76, 76);
+  margin: 0 !important;
+}
+main .left .reviewBtn{
+  background-color: rgb(247, 106, 106);
+  font-size: 1rem;
+  border-radius: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.btns{
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+main .left .reviewBtn:hover{
+  opacity: 1;
+}
+
+main .right{
+  background-color: rgba(0, 0, 0, 0.183);
+  padding: 1.7rem 2.5rem;
+  overflow: auto;
+}
+.editor{
+  cursor: "text" !important;
+}
