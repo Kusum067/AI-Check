@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended:true}));
 
 
 app.get('/', (req, res) => {
-    res.send('Home route...hahhahha');
+    res.send('Home route');
 })
 
 
