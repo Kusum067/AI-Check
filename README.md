@@ -35,5 +35,4 @@ This project uses **Google Gemini API** to analyze and review code, providing su
 
 ### 1️⃣ Clone the Repo
 ```bash
-git clone https://github.com/your-username/ai-code-reviewer.git
-cd ai-code-reviewer
+https://github.com/Kusum067/AI-Check.git
